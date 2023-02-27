@@ -15,4 +15,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, TableLayout::class.java).apply{ }
         startActivity(intent)
     }
+
+    fun abrirFrame(view: View){
+        val intent = Intent(this, FrameLayout::class.java).apply {  }
+        startActivity(intent)
+    }
 }
