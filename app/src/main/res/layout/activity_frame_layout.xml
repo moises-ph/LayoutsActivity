@@ -34,7 +34,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
+        android:text="Ok"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/teal_200"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
         android:onClick="volverInicioFr"
-        android:text="Ok" />
+        android:text="Volver a inicio"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple_500"/>
 
 </FrameLayout>

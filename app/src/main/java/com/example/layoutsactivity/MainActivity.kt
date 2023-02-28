@@ -20,4 +20,8 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, FrameLayout::class.java).apply {  }
         startActivity(intent)
     }
+    fun abrirVertical(view: View){
+        val intent = Intent (this, LinealVertical::class.java).apply {  }
+        startActivity(intent)
+    }
 }

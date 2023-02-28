@@ -44,6 +44,7 @@
         android:layout_width="115dp"
         android:layout_height="64dp"
         android:text="Vertical Linear"
+        android:onClick="abrirVertical"
         android:textColor="@color/white"
         android:backgroundTint="@color/buttonNav"
         app:layout_constraintBottom_toBottomOf="parent"
